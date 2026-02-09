@@ -12,9 +12,16 @@
   "app": {
     "windows": [
       {
-        "title": "spotify-lyrics-overlay",
-        "width": 800,
-        "height": 600
+        "label": "main",
+        "title": "Spotify Lyrics Overlay",
+        "width": 300,
+        "height": 400,
+        "alwaysOnTop": true,
+        "transparent": false,
+        "decorations": true,
+        "resizable": true,
+        "fullscreen": false,
+        "visible": true
       }
     ],
     "security": {
